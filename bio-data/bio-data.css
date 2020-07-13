@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background:#61122f;
+	font-size: 115%;
+}
+/* Navbar */
+#header-nav{
+	background-color:#f6b319;
+}
+#brand{
+	font-size: 2em;
+	color: green;
+	text-shadow: 1px 2px 0px black;
+}
+#category #nav-list .nav-item a{
+	color: #61122f;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 0px 10px 0px;
+}
+#category #nav-list li{
+	text-align: center;
+}
+/* Navbar ends*/
+
+/* Main Content */
+h2{
+	color:#f0f8ff;
+}
+#title #college{
+	color: #deb887;
+}
+#title{
+	position: relative;
+	clear: both;
+	text-align: center;
+	margin:3px auto 30px;
+}
+#wrapper{
+	margin: 0 15% 0;
+}
+h1{
+	font-size: 150%;
+}
+h4{
+	color: black;
+	font-size: 1.5em;
+	text-decoration: underline;
+		background-color: green;
+		display: block;
+		padding: 1px 2px 0px;
+}
+#basic,#address,#contact{
+	color: #ec0000;
+	padding: 1px 0px 0px;
+	clear: both;
+
+	margin-bottom: 3px;
+	}
+.p1{
+	color: black;
+	position: relative;
+	float: left;
+	width: 600px;
+}
+.q{
+
+	float: left;
+	width: 50%;
+}
+
+.value{
+	
+	float: left;
+	width: 50%;
+}
+@media(max-width: 1103px){
+	#image{
+		background-color: #61122f;
+		clear: both;
+		text-align: center;
+
+	}
+
+}
+@media(min-width: 1104px){
+	#image{
+	background-color: #61122f;
+	position:absolute;
+	right: 10px;
+	top:40px;
+
+	}
+}
+.col-lg-6, .col-md-6, .col-sm-6, .col-xs-6{
+	float: left;
+	color:#ff7f50;
+}
+
+
+/*CONTENT ENDS*/
+/*Footer*/
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+	clear: both;
+	padding: 3px auto ;
+	margin:100px auto 5px;
+}

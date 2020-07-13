@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+	<style >
+		body h1{
+			text-align: center;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-weight: bold;
+		}
+		label span{
+			position: absolute;
+
+			}
+		input{
+			margin-left: 150px;
+		}
+		textarea{
+			margin-left: 150px;	
+		}
+		#submit{
+			margin: auto;
+			text-align: center;
+		}
+	</style>
+</head>
+<body style="background-color: gold;">
+<h1>Registration Form</h1>
+<form>
+	<label> <span>User Id:</span></label> <input type="text" name="userID" maxlength="9" required="required"> <br><br>
+	<label><span>Password:</span></label> <input type="password" name="password" required="required"> <br><br>
+	<label><span>Name:</span></label> <input type="text" name="userName" required="required"> <br><br>
+	<label><span>Date Of Birth:</span></label> <input type="date" name="date" required="required"> <br><br>
+	<label><span>Address:</span></label> <textarea cols="30" rows="4" required="required"></textarea> <br><br>
+	<label><span>Country:</span> </label>
+	<input list="country" name="country" required="required">
+	<datalist id="country">
+    <option value="United States">
+    <option value="India">
+    <option value="Japan">
+    <option value="China">
+    <option value="United Kingdom">
+  </datalist>
+  		<br><br>
+  <label> <span>E-mail:</span> </label> <input type="email" name="e-mail" maxlength="30" size="30" required="required">
+  <br><br>
+  <label><span>Gender:</span></label> <input type="radio" name="r1">Male<input type="radio" name="r1">Female <br><br>
+  <label><span>About:</span></label> <textarea rows="6" cols="50" style="font-style: italic;" > Write something about yourself.</textarea><br><br>
+  <label><span>Uploads:</span></label>
+   <input type="file" name="bio-data"  required="required"> Bio-data <br>
+   <input type="file" name="photo" required="required"> Photo
+   <br><br>
+   <div id="submit"><input type="submit" name="submit" ></div>
+
+</form>
+
+</body>
+</html>
